@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/alexlee/CPEN 211 Labs/lab 4
+vinput_iface
+Z0 !s110 1507591962
+!i10b 1
+!s100 9=VLblSjgG9jVglRfIOhH2
+I[BEU>3`FRcO[]gb^@O=L]0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/Users/alexlee/CPEN 211 Labs/lab5
+Z3 w1507366248
+Z4 8C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v
+Z5 FC:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v
+L0 109
+Z6 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z7 !s108 1507591962.961000
+Z8 !s107 C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v|
+!i113 1
+Z10 o-work work
+vlab5_top
+R0
+!i10b 1
+!s100 =j:FgMjCHK1iYD^BjBJzX3
+Ii1h2dN>bBnGRPEk9ZYF9`3
+R1
+R2
+R3
+R4
+R5
+L0 57
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vlab5_top_tb
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+R0
+!i10b 1
+!s100 njANKBKND3d;G78dZb`0Y1
+I@iPdOjlz@eZ0V`C>FnCAh0
+R1
+!s105 lab5_top_tb_sv_unit
+S1
+R2
+w1507366246
+8C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv
+FC:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1507591962.852000
+!s107 C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv|
+!i113 1
+o-work work -sv
+vsseg
+R0
+!i10b 1
+!s100 LzAiLVBBBE@i=i?Dz6@611
+II]UVAn7OO^BC6`kzg`n5S2
+R1
+R2
+R3
+R4
+R5
+L0 167
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vvDFF
+R0
+!i10b 1
+!s100 @H=HKBFWk`NIEL2fGUK?B0
+ITj3TaiH`_RP7833`748^11
+R1
+R2
+R3
+R4
+R5
+L0 148
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nv@d@f@f

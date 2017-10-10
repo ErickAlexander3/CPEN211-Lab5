@@ -1,9 +1,9 @@
-{C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv}
+{C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/shifter.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\shifter.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module lab5_top_tb
+-- Compiling module shifter
 
 Top level modules:
-	lab5_top_tb
+	shifter
 
 } {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\lab5_top.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
@@ -15,22 +15,23 @@ Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 Top level modules:
 	lab5_top
 
+} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Register_file
+
+Top level modules:
+	Register_file
+
+} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab5_top_tb
+
+Top level modules:
+	lab5_top_tb
+
 } {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v} {0 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module regfile_tb
 ** Error: C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v(8): near "endmodule": syntax error, unexpected endmodule, expecting ';'
 
-} {4.0 5.0} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/buildingblocks.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\buildingblocks.v}
-Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module Load_enabled_register
--- Compiling module Decoder
--- Compiling module MUX_2in
--- Compiling module MUX_8in
-
-Top level modules:
-	Load_enabled_register
-	Decoder
-	MUX_2in
-	MUX_8in
-
-} {} {}}
+} {4.0 5.0} {}}

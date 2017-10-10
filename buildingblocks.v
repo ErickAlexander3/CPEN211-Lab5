@@ -6,7 +6,7 @@ module Load_enabled_register(clk, load, in, out);
   output [width-1:0] out;
   reg [width-1:0] out;
 
-  wire next_out = load ? in : out;
+  wire[width-1:0] next_out = load ? in : out;
 
   always @(posedge clk) begin
     out = next_out;
@@ -24,17 +24,17 @@ module Decoder(in, out);
   wire [out_width-1:0] out = 1 << in; 
 endmodule
 
-module MUX_2in(in1, in0, select, out);
+module MUX_2in_binary(in1, in0, select, out);
   parameter width = 16;
   
   input [width-1:0] in1, in0;
-  input [1:0] select;
+  input select;
   output reg [width-1:0] out;
 
   always @(*) begin
     case(select)
-      2'b01: out = in0;
-      2'b10: out = in1;
+      1'b0: out = in0;
+      1'b1: out = in1;
       default: out = {width{1'bx}};
     endcase
   end

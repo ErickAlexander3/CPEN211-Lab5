@@ -166,7 +166,7 @@ endmodule
 
 module sseg(in,segs);
   input [3:0] in;
-  output [6:0] segs;
+  output reg [6:0] segs;
 
   // NOTE: The code for sseg below is not complete: You can use your code from
   // Lab4 to fill this in or code from someone else's Lab4.  
@@ -212,7 +212,43 @@ module sseg(in,segs);
   //            13 | d
   //            14 | E
   //            15 | F
-
-  assign segs = 7'b0001110;  // this will output "F" 
+  `define NUMBER_0 7'b1000000
+  `define NUMBER_1 7'b1111001
+  `define NUMBER_2 7'b0100100
+  `define NUMBER_3 7'b0110000
+  `define NUMBER_4 7'b0011001
+  `define NUMBER_5 7'b0010010
+  `define NUMBER_6 7'b0000010
+  `define NUMBER_7 7'b1111000
+  `define NUMBER_8 7'b0000000
+  `define NUMBER_9 7'b0010000
+  `define NUMBER_A 7'b0001000
+  `define NUMBER_b 7'b0000011
+  `define NUMBER_C 7'b1000110
+  `define NUMBER_d 7'b0100001
+  `define NUMBER_E 7'b0000110
+  `define NUMBER_F 7'b0001110
+  
+  always @(*) begin
+    case(in)
+      4'b0000: segs = `NUMBER_0;
+      4'b0001: segs = `NUMBER_1;
+      4'b0010: segs = `NUMBER_2;
+      4'b0011: segs = `NUMBER_3;
+      4'b0100: segs = `NUMBER_4;
+      4'b0101: segs = `NUMBER_5;
+      4'b0110: segs = `NUMBER_6;
+      4'b0111: segs = `NUMBER_7;
+      4'b1000: segs = `NUMBER_8;
+      4'b1001: segs = `NUMBER_9;
+      4'b1010: segs = `NUMBER_A;
+      4'b1011: segs = `NUMBER_b;
+      4'b1100: segs = `NUMBER_C;
+      4'b1101: segs = `NUMBER_d;
+      4'b1110: segs = `NUMBER_E;
+      4'b1111: segs = `NUMBER_F;
+      default: segs = {7{1'bx}};
+    endcase
+  end
 
 endmodule

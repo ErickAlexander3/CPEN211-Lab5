@@ -8,44 +8,65 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/alexlee/CPEN 211 Labs/lab 4
-vinput_iface
-Z0 !s110 1507591962
+vDecoder
+Z0 !s110 1507599895
 !i10b 1
-!s100 9=VLblSjgG9jVglRfIOhH2
-I[BEU>3`FRcO[]gb^@O=L]0
+!s100 :^i[KN2E:OMb?hdG<40eg0
+IZT?MFQLKgP2H=<2bPAf7W0
 Z1 V`JN@9S9cnhjKRR_L]QIcM3
-Z2 dC:/Users/alexlee/CPEN 211 Labs/lab5
-Z3 w1507366248
-Z4 8C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v
-Z5 FC:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v
-L0 109
+Z2 dC:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5
+Z3 w1507597735
+Z4 8C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\buildingblocks.v
+Z5 FC:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\buildingblocks.v
+L0 17
 Z6 OV;L;10.3d;59
 r1
 !s85 0
 31
-Z7 !s108 1507591962.961000
-Z8 !s107 C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top.v|
+Z7 !s108 1507599895.139000
+Z8 !s107 C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\buildingblocks.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\buildingblocks.v|
 !i113 1
 Z10 o-work work
+n@decoder
+vinput_iface
+R0
+!i10b 1
+!s100 9=VLblSjgG9jVglRfIOhH2
+Ie5iPIjU]hh4?GV216F6`I3
+R1
+R2
+Z11 w1507594885
+Z12 8C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\lab5_top.v
+Z13 FC:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\lab5_top.v
+L0 109
+R6
+r1
+!s85 0
+31
+Z14 !s108 1507599895.239000
+Z15 !s107 C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\lab5_top.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\lab5_top.v|
+!i113 1
+R10
 vlab5_top
 R0
 !i10b 1
 !s100 =j:FgMjCHK1iYD^BjBJzX3
-Ii1h2dN>bBnGRPEk9ZYF9`3
+I7fS@4?2z1Mgn9MRaWL]LL2
 R1
 R2
-R3
-R4
-R5
+R11
+R12
+R13
 L0 57
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+R14
+R15
+R16
 !i113 1
 R10
 vlab5_top_tb
@@ -53,35 +74,35 @@ DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
 R0
 !i10b 1
 !s100 njANKBKND3d;G78dZb`0Y1
-I@iPdOjlz@eZ0V`C>FnCAh0
+I9UZc:QC7l_9[fIXAEfH6W0
 R1
 !s105 lab5_top_tb_sv_unit
 S1
 R2
-w1507366246
-8C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv
-FC:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv
+R11
+8C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv
+FC:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv
 L0 1
 R6
 r1
 !s85 0
 31
-!s108 1507591962.852000
-!s107 C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/alexlee/Desktop/Lab/Lab 5/lab5_top_tb.sv|
+!s108 1507599895.355000
+!s107 C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv|
 !i113 1
 o-work work -sv
-vsseg
+vLoad_enabled_register
 R0
 !i10b 1
-!s100 LzAiLVBBBE@i=i?Dz6@611
-II]UVAn7OO^BC6`kzg`n5S2
+!s100 Ji8R:gfY]Sf9>LYb^@]?D0
+IJS:NRg`8_96KUHhR[9lS21
 R1
 R2
 R3
 R4
 R5
-L0 167
+L0 1
 R6
 r1
 !s85 0
@@ -91,17 +112,18 @@ R8
 R9
 !i113 1
 R10
-vvDFF
+n@load_enabled_register
+vMUX_2in
 R0
 !i10b 1
-!s100 @H=HKBFWk`NIEL2fGUK?B0
-ITj3TaiH`_RP7833`748^11
+!s100 X^z7d9Z:GfRCXJhMh=X><0
+I<NNi>AA=4`ZCI;lF5aH[n0
 R1
 R2
 R3
 R4
 R5
-L0 148
+L0 27
 R6
 r1
 !s85 0
@@ -109,6 +131,89 @@ r1
 R7
 R8
 R9
+!i113 1
+R10
+n@m@u@x_2in
+vMUX_8in
+R0
+!i10b 1
+!s100 gV7AlKX]U1ia9oVedOag^1
+I>Yeg_n19jdP`RAKjZ97;F3
+R1
+R2
+R3
+R4
+R5
+L0 43
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@u@x_8in
+vRegister_file
+R0
+!i10b 1
+!s100 _>gckiN5Gz2U;c^L33I]D0
+IcgX3LN1V4A@^I3_S>L@FX1
+R1
+R2
+w1507599887
+8C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v
+FC:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1507599895.440000
+!s107 C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v|
+!i113 1
+R10
+n@register_file
+vsseg
+R0
+!i10b 1
+!s100 LzAiLVBBBE@i=i?Dz6@611
+I9QY2d;98?YC^gIW]bfY<m2
+R1
+R2
+R11
+R12
+R13
+L0 167
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R10
+vvDFF
+R0
+!i10b 1
+!s100 @H=HKBFWk`NIEL2fGUK?B0
+IFCR`mjFX0gTR5JL5U_>AZ1
+R1
+R2
+R11
+R12
+R13
+L0 148
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
 !i113 1
 R10
 nv@d@f@f

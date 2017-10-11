@@ -1,11 +1,18 @@
-{C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/shifter.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\shifter.v}
+{C:/Users/alexlee/CPEN 211 Labs/lab5/regfile.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/regfile.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module shifter
+-- Compiling module Register_file
 
 Top level modules:
-	shifter
+	Register_file
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\lab5_top.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab5_top_tb
+
+Top level modules:
+	lab5_top_tb
+
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module lab5_top
 -- Compiling module input_iface
@@ -15,23 +22,40 @@ Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 Top level modules:
 	lab5_top
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/ALU.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/ALU.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module Register_file
+-- Compiling module ALU
+-- Compiling module ALU_result
+-- Compiling module ALU_status
 
 Top level modules:
-	Register_file
+	ALU
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/datapath.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/datapath.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module lab5_top_tb
+-- Compiling module datapath
 
 Top level modules:
-	lab5_top_tb
+	datapath
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v} {0 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/buildingblocks.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/buildingblocks.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module regfile_tb
-** Error: C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v(8): near "endmodule": syntax error, unexpected endmodule, expecting ';'
+-- Compiling module Load_enabled_register
+-- Compiling module Decoder
+-- Compiling module MUX_2in_binary
+-- Compiling module MUX_8in
 
-} {4.0 5.0} {}}
+Top level modules:
+	Load_enabled_register
+	Decoder
+	MUX_2in_binary
+	MUX_8in
+
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}}

@@ -125,6 +125,6 @@ module regfile_tb();
 		#10; //wait for 10 ps (currently at 30ps)
 		$display("currently at 230ps");
 
-		
+		$stop; //break out
 	end
 endmodule

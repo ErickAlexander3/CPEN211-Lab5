@@ -1,34 +1,18 @@
-{C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/shifter.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/shifter.v}
-Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module shifter
-
-Top level modules:
-	shifter
-
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile.v}
+{C:/Users/alexlee/CPEN 211 Labs/lab5/regfile.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/regfile.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module Register_file
 
 Top level modules:
 	Register_file
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/ALU.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/ALU.v}
-Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module ALU
--- Compiling module ALU_result
--- Compiling module ALU_status
-
-Top level modules:
-	ALU
-
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top_tb.sv}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module lab5_top_tb
 
 Top level modules:
 	lab5_top_tb
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/lab5_top.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\lab5_top.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module lab5_top
 -- Compiling module input_iface
@@ -38,35 +22,51 @@ Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 Top level modules:
 	lab5_top
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/shifter_tb.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/shifter_tb.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/ALU.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/ALU.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ALU
+-- Compiling module ALU_result
+-- Compiling module ALU_status
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/shifter_tb.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/shifter_tb.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module shifter_tb
 
 Top level modules:
 	shifter_tb
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/datapath.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/datapath.v}
-Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
--- Compiling module datapath
-
-Top level modules:
-	datapath
-
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v} {1 {vlog -work work -stats=none {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/regfile_tb.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/regfile_tb.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/regfile_tb.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module regfile_tb
 
 Top level modules:
 	regfile_tb
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/ALU_tb.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\ALU_tb.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/datapath.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/datapath.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/ALU_tb.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/ALU_tb.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module ALU_tb
 
 Top level modules:
 	ALU_tb
 
-} {} {}} {C:/Users/erick/OneDrive/Documentos/UBC-DESKTOP-0RSMUVL/CPEN 211/lab5/buildingblocks.v} {1 {vlog -work work -stats=none {C:\Users\erick\OneDrive\Documentos\UBC-DESKTOP-0RSMUVL\CPEN 211\lab5\buildingblocks.v}
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/datapath_tb.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/datapath_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/buildingblocks.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/buildingblocks.v}
 Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling module Load_enabled_register
 -- Compiling module Decoder
@@ -78,5 +78,12 @@ Top level modules:
 	Decoder
 	MUX_2in_binary
 	MUX_8in
+
+} {} {}} {C:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v} {1 {vlog -work work -stats=none {C:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
 
 } {} {}}

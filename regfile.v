@@ -1,15 +1,15 @@
-//synthesizable code for the register file
+//The register file consists of 8 load-enabled 16-bits registers, that will allow both writing to them and reading from them.
 module Register_file(clk, data_in, write, writenum, readnum, data_out);
-  input clk, write;
-  input [2:0] writenum, readnum;
-  input [15:0] data_in; 
-  output [15:0] data_out;
+  input clk, write;  //clk allows a rising edge for the load-enabled registers, while write is a flag to allow writing on them
+  input [2:0] writenum, readnum;  //writenum and readnum show which register to read from or write on respectively
+  input [15:0] data_in; //this is the data that would be stored on the given writenum location if write is enabled on the next rising edge
+  output [15:0] data_out; //this is the output from the readnum location
 
   //Decode the writenum into a one-hot code to know which register to write in
   wire [7:0] decoded_writenum;
   Decoder #(3, 8) decoder_write(writenum, decoded_writenum);
 
-  //Create 8 wires storing the output of the load-enabled registers created in the enxt step
+  //Create 8 wires storing the output of the load-enabled registers created in the next step
   wire [15:0] R0_out, R1_out, R2_out, R3_out, R4_out, R5_out, R6_out, R7_out; 
 
   //Create 8 load-enabled registers Rn, of width 16, where the load comes from the result of AND(write, decoded_writenum[n])

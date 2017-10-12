@@ -4,6 +4,8 @@ module datapath(clk, //clock controlling datapath
                 writenum, write, datapath_in, // set when "writing back" to register file               
                 status, datapath_out // outputs
               );
+   // Set all the inputs and outputs to be used in the datapath. Refer to the datapath figure in lab5 to
+   // understand how each input works
    input clk, write, asel, bsel, vsel, loada, loadb, loadc, loads;
    input [2:0] readnum, writenum;
    input [1:0] ALUop, shift;

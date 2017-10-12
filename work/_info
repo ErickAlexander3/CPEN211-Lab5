@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/alexlee/CPEN 211 Labs/lab 4
 vALU
-Z0 !s110 1507797099
+Z0 !s110 1507799815
 !i10b 1
 !s100 Cel^U3YNh2L@CeVc8;[zZ3
 IEI=Ez[[Z8bjX[S^>QM4@:0
@@ -23,7 +23,7 @@ Z6 OV;L;10.3d;59
 r1
 !s85 0
 31
-Z7 !s108 1507797099.907000
+Z7 !s108 1507799815.726000
 Z8 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/ALU.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/ALU.v|
 !i113 1
@@ -72,7 +72,7 @@ R9
 R10
 n@a@l@u_status
 vALU_tb
-Z12 !s110 1507797100
+Z12 !s110 1507799816
 !i10b 1
 !s100 U;[[77^l=HgQ4JKo?FYed2
 I6]2S92?Xfah0dDgX1GYB30
@@ -86,14 +86,14 @@ R6
 r1
 !s85 0
 31
-!s108 1507797100.392000
+!s108 1507799816.210000
 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/ALU_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/ALU_tb.v|
 !i113 1
 R10
 n@a@l@u_tb
 vdatapath
-R12
+R0
 !i10b 1
 !s100 0bT91@QXj]nc9DTgfMJ2n1
 IPm`LiOU1`5J?M0h8Ah`Kh0
@@ -107,13 +107,13 @@ R6
 r1
 !s85 0
 31
-!s108 1507797100.048000
+!s108 1507799815.882000
 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/datapath.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/datapath.v|
 !i113 1
 R10
 vDecoder
-R12
+R0
 !i10b 1
 !s100 :^i[KN2E:OMb?hdG<40eg0
 I@1bA<9<HXf;??@jRTU_D]2
@@ -127,14 +127,14 @@ R6
 r1
 !s85 0
 31
-Z15 !s108 1507797099.985000
+Z15 !s108 1507799815.788000
 Z16 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/buildingblocks.v|
 Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/buildingblocks.v|
 !i113 1
 R10
 n@decoder
 vinput_iface
-R12
+R0
 !i10b 1
 !s100 9=VLblSjgG9jVglRfIOhH2
 Ioo3@DDACQ3>;2fzQ:JY=<3
@@ -148,13 +148,13 @@ R6
 r1
 !s85 0
 31
-Z20 !s108 1507797100.126000
+Z20 !s108 1507799815.944000
 Z21 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top.v|
 Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top.v|
 !i113 1
 R10
 vlab5_top
-R12
+R0
 !i10b 1
 !s100 =j:FgMjCHK1iYD^BjBJzX3
 INSN?5kHoL08j1mezWi5^I1
@@ -191,13 +191,13 @@ R6
 r1
 !s85 0
 31
-!s108 1507797100.204000
+!s108 1507799816.023000
 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/lab5_top_tb.sv|
 !i113 1
 o-work work -sv
 vLoad_enabled_register
-R12
+R0
 !i10b 1
 !s100 UF3Gg4Z;HHQLTO2VM]lGE3
 I4X3LHK`hFi_:IP@z[_PaJ0
@@ -239,7 +239,7 @@ r1
 R10
 n@m@u@x_2in
 vMUX_2in_binary
-R12
+R0
 !i10b 1
 !s100 aVLSXFl5Uk^aco?2=4I<H0
 IYekJg^9inkV7B[Olz1@iK0
@@ -260,7 +260,7 @@ R17
 R10
 n@m@u@x_2in_binary
 vMUX_8in
-R12
+R0
 !i10b 1
 !s100 gV7AlKX]U1ia9oVedOag^1
 I=<V^A]DMFUzAWA=XXFiVo3
@@ -295,7 +295,7 @@ R6
 r1
 !s85 0
 31
-!s108 1507797100.329000
+!s108 1507799816.148000
 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/regfile_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/regfile_tb.v|
 !i113 1
@@ -315,7 +315,7 @@ R6
 r1
 !s85 0
 31
-!s108 1507797100.267000
+!s108 1507799816.085000
 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/regfile.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/regfile.v|
 !i113 1
@@ -324,11 +324,11 @@ n@register_file
 vshifter
 R0
 !i10b 1
-!s100 gWLgZ8XKSReeQKf3^a`LJ1
-I6a7JoWDioj[z<m6LDjkZ10
+!s100 YMSgBD1QcFDh[NjDTNoof1
+I1SL3T=T0[:M0Jij=6PDC10
 R1
 R2
-R3
+w1507799812
 8C:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v
 FC:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v
 L0 6
@@ -336,13 +336,33 @@ R6
 r1
 !s85 0
 31
-!s108 1507797099.845000
+!s108 1507799815.663000
 !s107 C:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/shifter.v|
 !i113 1
 R10
-vsseg
+vshifter_tb
 R12
+!i10b 1
+!s100 ejBmG2Soln;>^XI`=KZ=z2
+Ii:1<>M>HW1g<fCjE1C:K_1
+R1
+R2
+w1507799520
+8C:/Users/alexlee/CPEN 211 Labs/lab5/shifter_tb.v
+FC:/Users/alexlee/CPEN 211 Labs/lab5/shifter_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1507799816.273000
+!s107 C:/Users/alexlee/CPEN 211 Labs/lab5/shifter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/alexlee/CPEN 211 Labs/lab5/shifter_tb.v|
+!i113 1
+R10
+vsseg
+R0
 !i10b 1
 !s100 Y^4^hV=E3]PTKl>Hz_[8N0
 I6cXI@Sl@QS4HOW4m;bLbj0
@@ -362,7 +382,7 @@ R22
 !i113 1
 R10
 vvDFF
-R12
+R0
 !i10b 1
 !s100 @H=HKBFWk`NIEL2fGUK?B0
 II=Xld6_>zN^NcW4Q2b2oU0

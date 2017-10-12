@@ -13,7 +13,7 @@ module shifter(in, shift, out);
       `UNCHANGED: out = in;
       `SHIFT_LEFT: out = in << 1;
       `SHIFT_RIGHT_MSB_0: out = in >> 1;
-      `SHIFT_RIGHT_MSB_COPY: out = in >>> 1;
+      `SHIFT_RIGHT_MSB_COPY: out = {in[15], in[15:1]};
       default: out = {16{1'bx}};
     endcase
   end

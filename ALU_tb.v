@@ -43,6 +43,23 @@ module ALU_tb();
 		sim_alu_op = 2'b11; //set ALU operation to not bin
 		#10; //wait for 10 ps
 		$display("NOTing 11 in binary, expecting 1111111111110100, actual output is %b", sim_out); //display to the screen
+
+
+		//test adding two values that the result cannot be represented with 16 bits binary
+		sim_ain = 16'b1111111111111111; //initialize ain to binary value 65535
+		sim_bin = 16'b0000000000000001; //initialie bin to binary value 1
+		sim_alu_op = 2'b00; //set ALU operation to addition
+		#10; //wait for 10 ps
+		$display("Adding 65535 and 1 is beybond what 16 bits binary can represent, result is %b", sim_out);
+
+
+		//test aubtracting two values that the result is negativce
+		sim_ain = 16'b000000000000001; //initialize ain to binary value 1
+		sim_bin = 16'b0000000000000010; //initialie bin to binary value 2
+		sim_alu_op = 2'b01; //set ALU operation to subtraction
+		#10; //wait for 10 ps
+		$display("1 subtracted by 2 is negative, result is %b", sim_out);
 		$stop; //break out
+
 	end
 endmodule
